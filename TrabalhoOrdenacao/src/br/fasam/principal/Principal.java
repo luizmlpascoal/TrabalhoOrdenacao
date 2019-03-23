@@ -20,18 +20,18 @@ public class Principal {
 		printArray(vetorOrdenado);
 		System.out.println("Tempo para ordenar: " + tempo + " ms");
 		
-		String palavra = "dedicadamente";
+		String palavra = "malandramente";
 		
 		int pos = Busca.buscaSequencial(vetor, palavra);
 		int posOrd = Busca.buscaSequencial(vetorOrdenado, palavra);
 		if(pos == -1)
 		{
-			System.out.println(palavra + " Não Encontrada");
+			System.out.println(palavra + " Nï¿½o Encontrada");
 		}
 		else
 		{
-			System.out.println(palavra + " está na posição : " + pos + " no Vetor Original");
-			System.out.println(palavra + " está na posição : " + posOrd + " no Vetor Ordenado.");
+			System.out.println(palavra + " estï¿½ na posiï¿½ï¿½o : " + pos + " no Vetor Original");
+			System.out.println(palavra + " estï¿½ na posiï¿½ï¿½o : " + posOrd + " no Vetor Ordenado.");
 		}
 	}
 	

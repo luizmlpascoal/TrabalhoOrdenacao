@@ -11,9 +11,9 @@ public class ArquivoHandler {
 		String path = "";
 
 		if (dic.equalsIgnoreCase("ingles"))
-			path = "./files/English.txt";
+			path = "C:\\Users\\Luiz Mario\\git\\TrabalhoOrdenacaoDev2\\TrabalhoOrdenacao\\files";
 		else if (dic.equalsIgnoreCase("espanhol"))
-			path = "./files/Spanish.txt";
+			path = "C:\\Users\\Luiz Mario\\git\\TrabalhoOrdenacaoDev2\\TrabalhoOrdenacao\\files\\Spanish.txt";
 		else
 			path = "./files/Portuguese.txt";
 
@@ -21,9 +21,9 @@ public class ArquivoHandler {
 			FileReader arq = new FileReader(path);
 			BufferedReader lerArq = new BufferedReader(arq);
 
-			String linha = lerArq.readLine(); // lê a primeira linha
-			// a variável "linha" recebe o valor "null" quando o processo
-			// de repetição atingir o final do arquivo texto
+			String linha = lerArq.readLine(); // lï¿½ a primeira linha
+			// a variï¿½vel "linha" recebe o valor "null" quando o processo
+			// de repetiï¿½ï¿½o atingir o final do arquivo texto
 
 			String[] vetor = new String[Integer.parseInt(linha)];
 			int i = 0;
@@ -36,7 +36,7 @@ public class ArquivoHandler {
 				
 				linha = lerArq.readLine();
 
-				// lê da segunda até a última linha
+				// lï¿½ da segunda atï¿½ a ï¿½ltima linha
 			}
 
 			arq.close();
