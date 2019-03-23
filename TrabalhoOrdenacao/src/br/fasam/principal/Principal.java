@@ -20,7 +20,7 @@ public class Principal {
 		printArray(vetorOrdenado);
 		System.out.println("Tempo para ordenar: " + tempo + " ms");
 		
-		String palavra = "dedicadamente";
+		String palavra = "decorrerse";
 		
 		int pos = Busca.buscaSequencial(vetor, palavra);
 		int posOrd = Busca.buscaSequencial(vetorOrdenado, palavra);
